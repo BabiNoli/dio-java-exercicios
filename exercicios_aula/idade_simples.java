@@ -11,7 +11,6 @@ public class idade_simples {
         System.out.println("Digite o ano de nascimento: ");
         var birthYear = scanner.nextInt();
 
-        // Close the scanner to avoid resource leak
         scanner.close();
 
         var age = baseYear - birthYear;

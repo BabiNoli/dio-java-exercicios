@@ -7,6 +7,8 @@ public class area_quadrado {
             double lado = scanner.nextDouble();
             double area = lado * lado;
             System.out.println("A área do quadrado é: " + area);
+
+            scanner.close();
         } catch (Exception e) {
             throw new RuntimeException("Erro ao calcular a área do quadrado", e);
         }
