@@ -1,3 +1,6 @@
+import java.time.OffsetDateTime;
+import java.util.Scanner;
+
 public class idade_simples {
     public static void main(String[] args) {
         var baseYear = OffsetDateTime.now().getYear();
