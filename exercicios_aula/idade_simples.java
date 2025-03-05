@@ -16,5 +16,6 @@ public class idade_simples {
 
         var age = baseYear - birthYear;
         System.out.printf("Olá %s, você tem %d anos.\n", name, age);
+        System.out.println("Até a próxima!");
     }
 }
