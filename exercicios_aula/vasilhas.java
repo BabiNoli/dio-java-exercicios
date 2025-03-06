@@ -15,8 +15,8 @@ public class vasilhas {
 
             var message = switch (escolha) {
                 case 1 -> "Pode ir fazer outra coisa útil ou relaxar!";
-                case 2 -> "É melhor limpar enquanto nao tem uma montanha de vazinha suja.";
-                case 3 -> "Para tudo que você está fazendo e lava essas vazinhas imediatamente.";
+                case 2 -> "É melhor limpar enquanto nao tem uma montanha de vasilha suja.";
+                case 3 -> "Para tudo que você está fazendo e lava essas vasilhas imediatamente.";
             
                 default -> "Escolha inválida. Digite 1, 2 ou 3.";
                 
